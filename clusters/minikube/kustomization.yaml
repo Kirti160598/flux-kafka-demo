@@ -8,7 +8,7 @@ spec:
   path: ./clusters/minikube
   prune: true
   sourceRef: 
-     kind: GitRepository
-     name: flux-system-kafka-helm
+    kind: GitRepository
+    name: flux-system-kafka-helm
   validation: client
   targetNamespace: messaging
