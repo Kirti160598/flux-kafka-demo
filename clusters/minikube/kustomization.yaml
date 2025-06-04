@@ -1,5 +1,4 @@
-apiVersion: kustomize.config.k8s.io/v1beta1
->>>>>>> 5b12b8f3a1863817b14ea098d95ea340d0178459
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
   name: kafka-infra
@@ -7,7 +6,6 @@ metadata:
 spec:
   interval: 1m
   path: flux-kafka-demo/clusters/minikube/
->>>>>>> 5b12b8f3a1863817b14ea098d95ea340d0178459
   prune: true
   sourceRef: 
     kind: GitRepository

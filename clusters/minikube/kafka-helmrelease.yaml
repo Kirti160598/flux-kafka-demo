@@ -14,11 +14,11 @@ spec:
         kind: HelmRepository
         name: bitnami
         namespace: flux-system-kafka-helm
-values:
-  fullnameOverride: kafka
-  replicaCount: 1
-  zookeeper:
-    enabled: true
+  values:
+    fullnameOverride: kafka
     replicaCount: 1
-  persistence:
-    enabled: false
+    zookeeper:
+      enabled: true
+      replicaCount: 1
+    persistence:
+      enabled: false
