@@ -9,6 +9,6 @@ spec:
   prune: true
   sourceRef: 
     kind: GitRepository
-    name: flux-system-kafka-helm
+    name: flux-kafka-demo
   validation: client
   targetNamespace: messaging
