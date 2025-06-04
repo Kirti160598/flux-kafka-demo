@@ -13,7 +13,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: bitnami
-        namespace: flux-system-kafka-helm
+        namespace: flux-system
   values:
     fullnameOverride: kafka
     replicaCount: 1
