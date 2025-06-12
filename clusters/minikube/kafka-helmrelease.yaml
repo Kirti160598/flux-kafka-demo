@@ -4,7 +4,7 @@ metadata:
   name: kafka
   namespace: messaging
 spec: 
-  interval: 5m
+  interval: 1m
   releaseName: kafka
   chart: 
     spec:
