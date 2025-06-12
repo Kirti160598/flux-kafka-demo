@@ -14,5 +14,7 @@ spec:
   targetNamespace: messaging
   resources:
     - namespace.yaml
+    - kafka-source.yaml
+    - kafka-helmrelease.yaml
 
 
