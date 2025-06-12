@@ -12,5 +12,5 @@ spec:
     name: flux-system-demo
   validation: client
   targetNamespace: messaging
-  resources:
-    - namespace.yml
+resources:
+  - namespace.yml
