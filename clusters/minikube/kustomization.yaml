@@ -13,7 +13,6 @@ spec:
   validation: client
   targetNamespace: messaging
   resources:
-    - namespace.yml
-    - kafka-source.yml
-    - kafka-helmrelease.yml
+    - namespace.yaml
+
 
