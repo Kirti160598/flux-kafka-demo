@@ -16,6 +16,5 @@ spec:
     name: flux-kafka-demo
   validation: client
   targetNamespace: messaging
-l
 
 
