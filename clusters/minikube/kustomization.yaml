@@ -3,8 +3,6 @@ kind: Kustomization
 metadata:
   name: kafka-infra
   namespace: flux-system-kafka-namespace
-resources:
-  - namespace.yml
 spec:
   interval: 1m
   path: flux-kafka-demo/clusters/minikube/
@@ -14,4 +12,8 @@ spec:
     name: flux-system-demo
   validation: client
   targetNamespace: messaging
+  resources:
+    - namespace.yml
+    - kafka-source.yml
+    - kafka-helmrelease.yml
 
